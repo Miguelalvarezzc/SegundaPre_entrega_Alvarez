@@ -1,0 +1,60 @@
+
+body{
+    background-color: white;
+}
+
+.header{
+    background-color: white;
+    margin: 0 auto;
+    padding: 60px 0 0;
+}
+
+.header .nav-links{ /*Sirve para darle las medidas y caracteristicas que quieras al nav*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.header .nav-links li{ /*Sirve para ubicar en la misma linea los elementos del nav*/
+    float: none;
+    display: inline-block;
+}
+
+.header .nav-links li{
+    font: menu;
+    display: inline-flex;
+    padding: 0 50px;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #ffbbd9;
+}
+
+.header .nav-links li:nth-child(1){
+    float: left;
+}
+
+.header .nav-links li:nth-child(2){
+    float: left;
+}
+
+.header .nav-links li:nth-child(3){
+    float: left;
+}
+
+.header .logo img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 27%;
+    top: 0;
+    content: "";
+    margin-left: 200px;
+}
